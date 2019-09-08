@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1898A0EB1D49D29B0075F4A3 /* TextKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898A0EA1D49D29B0075F4A3 /* TextKeyboard.swift */; };
+		1898A0ED1D49DD460075F4A3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898A0EC1D49DD460075F4A3 /* TableViewController.swift */; };
 		18DCC8F71D409709001377E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCC8F61D409709001377E1 /* AppDelegate.swift */; };
 		18DCC8F91D409709001377E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCC8F81D409709001377E1 /* ViewController.swift */; };
 		18DCC8FC1D409709001377E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DCC8FA1D409709001377E1 /* Main.storyboard */; };
@@ -14,6 +16,15 @@
 		18DCC9011D409709001377E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DCC8FF1D409709001377E1 /* LaunchScreen.storyboard */; };
 		18DCC90C1D40970A001377E1 /* MyAppQDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCC90B1D40970A001377E1 /* MyAppQDTests.swift */; };
 		18DCC9171D40970A001377E1 /* MyAppQDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCC9161D40970A001377E1 /* MyAppQDUITests.swift */; };
+		18DCC9261D409A04001377E1 /* ic_alert.png in Resources */ = {isa = PBXBuildFile; fileRef = 18DCC9251D409A04001377E1 /* ic_alert.png */; };
+		18DCC92C1D40A63D001377E1 /* MyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCC92B1D40A63D001377E1 /* MyDelegate.swift */; };
+		18DCC92F1D40AEFF001377E1 /* MyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCC92E1D40AEFF001377E1 /* MyLabel.swift */; };
+		18DCC9331D40CD1F001377E1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCC9321D40CD1F001377E1 /* FirstViewController.swift */; };
+		18DCC9361D40CF47001377E1 /* XIBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCC9341D40CF47001377E1 /* XIBViewController.swift */; };
+		18DCC9371D40CF47001377E1 /* XIBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DCC9351D40CF47001377E1 /* XIBViewController.xib */; };
+		18DCC9391D40D1FA001377E1 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCC9381D40D1FA001377E1 /* BlueViewController.swift */; };
+		18FEBD411D41EBEC00649AE7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FEBD401D41EBEC00649AE7 /* SecondViewController.swift */; };
+		18FEBDB71D42109800649AE7 /* GrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FEBDB61D42109800649AE7 /* GrayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1898A0EA1D49D29B0075F4A3 /* TextKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextKeyboard.swift; sourceTree = "<group>"; };
+		1898A0EC1D49DD460075F4A3 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		18DCC8F31D409709001377E1 /* MyAppQD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAppQD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DCC8F61D409709001377E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18DCC8F81D409709001377E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,15 @@
 		18DCC9121D40970A001377E1 /* MyAppQDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppQDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DCC9161D40970A001377E1 /* MyAppQDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppQDUITests.swift; sourceTree = "<group>"; };
 		18DCC9181D40970A001377E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DCC9251D409A04001377E1 /* ic_alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_alert.png; sourceTree = "<group>"; };
+		18DCC92B1D40A63D001377E1 /* MyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDelegate.swift; sourceTree = "<group>"; };
+		18DCC92E1D40AEFF001377E1 /* MyLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLabel.swift; sourceTree = "<group>"; };
+		18DCC9321D40CD1F001377E1 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		18DCC9341D40CF47001377E1 /* XIBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XIBViewController.swift; sourceTree = "<group>"; };
+		18DCC9351D40CF47001377E1 /* XIBViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XIBViewController.xib; sourceTree = "<group>"; };
+		18DCC9381D40D1FA001377E1 /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		18FEBD401D41EBEC00649AE7 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		18FEBDB61D42109800649AE7 /* GrayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +119,23 @@
 		18DCC8F51D409709001377E1 /* MyAppQD */ = {
 			isa = PBXGroup;
 			children = (
+				18DCC92D1D40AEDB001377E1 /* View */,
+				18DCC9241D4099E9001377E1 /* pictures */,
 				18DCC8F61D409709001377E1 /* AppDelegate.swift */,
 				18DCC8F81D409709001377E1 /* ViewController.swift */,
 				18DCC8FA1D409709001377E1 /* Main.storyboard */,
 				18DCC8FD1D409709001377E1 /* Assets.xcassets */,
 				18DCC8FF1D409709001377E1 /* LaunchScreen.storyboard */,
 				18DCC9021D409709001377E1 /* Info.plist */,
+				18DCC92B1D40A63D001377E1 /* MyDelegate.swift */,
+				18DCC9321D40CD1F001377E1 /* FirstViewController.swift */,
+				18DCC9341D40CF47001377E1 /* XIBViewController.swift */,
+				18DCC9351D40CF47001377E1 /* XIBViewController.xib */,
+				18DCC9381D40D1FA001377E1 /* BlueViewController.swift */,
+				18FEBD401D41EBEC00649AE7 /* SecondViewController.swift */,
+				18FEBDB61D42109800649AE7 /* GrayView.swift */,
+				1898A0EA1D49D29B0075F4A3 /* TextKeyboard.swift */,
+				1898A0EC1D49DD460075F4A3 /* TableViewController.swift */,
 			);
 			path = MyAppQD;
 			sourceTree = "<group>";
@@ -123,6 +156,22 @@
 				18DCC9181D40970A001377E1 /* Info.plist */,
 			);
 			path = MyAppQDUITests;
+			sourceTree = "<group>";
+		};
+		18DCC9241D4099E9001377E1 /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				18DCC9251D409A04001377E1 /* ic_alert.png */,
+			);
+			name = pictures;
+			sourceTree = "<group>";
+		};
+		18DCC92D1D40AEDB001377E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18DCC92E1D40AEFF001377E1 /* MyLabel.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +278,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DCC9371D40CF47001377E1 /* XIBViewController.xib in Resources */,
 				18DCC9011D409709001377E1 /* LaunchScreen.storyboard in Resources */,
 				18DCC8FE1D409709001377E1 /* Assets.xcassets in Resources */,
+				18DCC9261D409A04001377E1 /* ic_alert.png in Resources */,
 				18DCC8FC1D409709001377E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +307,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FEBD411D41EBEC00649AE7 /* SecondViewController.swift in Sources */,
+				1898A0EB1D49D29B0075F4A3 /* TextKeyboard.swift in Sources */,
+				18DCC9361D40CF47001377E1 /* XIBViewController.swift in Sources */,
+				18DCC9331D40CD1F001377E1 /* FirstViewController.swift in Sources */,
+				18FEBDB71D42109800649AE7 /* GrayView.swift in Sources */,
 				18DCC8F91D409709001377E1 /* ViewController.swift in Sources */,
+				1898A0ED1D49DD460075F4A3 /* TableViewController.swift in Sources */,
 				18DCC8F71D409709001377E1 /* AppDelegate.swift in Sources */,
+				18DCC92F1D40AEFF001377E1 /* MyLabel.swift in Sources */,
+				18DCC92C1D40A63D001377E1 /* MyDelegate.swift in Sources */,
+				18DCC9391D40D1FA001377E1 /* BlueViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +544,7 @@
 				18DCC91D1D40970A001377E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18DCC91E1D40970A001377E1 /* Build configuration list for PBXNativeTarget "MyAppQDTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +553,7 @@
 				18DCC9201D40970A001377E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18DCC9211D40970A001377E1 /* Build configuration list for PBXNativeTarget "MyAppQDUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +562,7 @@
 				18DCC9231D40970A001377E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

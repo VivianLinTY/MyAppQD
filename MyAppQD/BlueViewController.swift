@@ -10,18 +10,26 @@ import UIKit
 
 class BlueViewController: UIViewController {
 
-    override func viewDidLoad() {
+    @IBOutlet var myLabel: [UILabel]!
+    var myLabelString:String? = ""
+    
+    override func viewDidLoad() { //view都init好了呼叫
         super.viewDidLoad()
-
+        print(myLabelString)
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func back(sender: AnyObject) { //回到原來的
+        self.dismissViewControllerAnimated(true, completion: nil)
+//        let oriVC:ViewController? = self.storyboard?.instantiateViewControllerWithIdentifier("originalViewController") as? ViewController
+//        oriVC?.backStr = "10000000"
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
     /*
     // MARK: - Navigation
 
@@ -31,5 +39,4 @@ class BlueViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-@UIApplicationMain
+//@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
@@ -16,6 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        print("App is launched")
+//        self.window?.backgroundColor = UIColor.blueColor()
+//        self.window?.rootViewController = FirstViewController()
+        let storyboard:UIStoryboard = UIStoryboard(name:"Main",bundle:nil)
+        self.window?.rootViewController = storyboard.instantiateViewControllerWithIdentifier("blueController") as? ViewController
         return true
     }
 
@@ -27,6 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidEnterBackground(application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+        print("Did Enter Background")
     }
 
     func applicationWillEnterForeground(application: UIApplication) {

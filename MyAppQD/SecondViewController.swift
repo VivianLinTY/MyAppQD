@@ -12,7 +12,7 @@ class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        myLabel.text = temp_str
         // Do any additional setup after loading the view.
     }
 
@@ -21,6 +21,8 @@ class SecondViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBOutlet weak var myLabel: UILabel!
+    var temp_str = ""
 
     /*
     // MARK: - Navigation

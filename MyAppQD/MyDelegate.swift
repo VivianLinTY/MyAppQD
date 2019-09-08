@@ -6,4 +6,14 @@
 //  Copyright © 2016年 VVN. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+@UIApplicationMain
+class MyDelegate: UIResponder, UIApplicationDelegate {
+    var window: UIWindow?
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
+        print("application")
+        self.window?.backgroundColor = UIColor.blueColor()        
+        return true
+    }
+}

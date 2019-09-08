@@ -6,4 +6,11 @@
 //  Copyright © 2016年 VVN. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class MyLabel:UILabel {
+    override func awakeFromNib() {
+        //Storyboard產生時會實作awakeFromNib
+        print("awakeFromNib")
+    }
+}
